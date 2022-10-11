@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Resent Client</title>
+	<meta charset="UTF-8" />
+	<meta content="An eaglercraft PvP client with a shit ton of features as well as an unnecessary ammount of texture packs." name="description" />
+	<meta content="//resclient.vercel.app" name="url" />
+	<meta content="hooman#1196/Nitwit" name="author" />
+	<meta content="Resent Client" property="og:title" />
+	<meta content="en-US" property="og:locale" />
+	<meta content="website" property="og:type" />
+	<meta content="//resclient.vercel.app" property="og:url" />
+	<!--meta content="IMAGE" property="og:image"/>-->
+	<meta content="An eaglercraft PvP client with a shit ton of features as well as an unnecessary ammount of texture packs."
+		property="og:description" />
+	<script type="text/javascript" src="eagswebrtc.js"></script>
+	<script type="text/javascript" src="classes.js"></script>
+	<style>
+		@font-face {
+			font-family: "Product Sans";
+			src: url(ProductSans.ttf);
+		}
+    
+	</style>
+</head>
+  
+
+<body style="margin: 0; width: 100vw; height: 100vh;
+background-image: url(bg1.png);  font-family:
+'Product Sans'" id="game_frame" >
+
+ 
+	<div id="Selection"
+		style="display: inline-block; position: absolute; top:50%; left: 50%; transform: translate(-50%, -50%); background-color: rgb(49, 51, 54); padding: 20px; border-radius: 10px; color : white; max-width: 300px; text-align: center;">
+    <div background-color: light-grey;>
+		<h1>Resent Client</h1>
+    </div>
+		<h3 >Select a texture pack:</h3>
+		<select id="Packs">
+			<option>-- Choose one --</option>
+			<option value="resent">Resent</option>
+			<option value="dino">Dino 16x</option>
+			<option value="eternity">Eternity(Unfinished)</option>
+			<option value="bda">BDA</option>
+			<option value="swiss">Swiss 16x</option>
+			<option value="skyline">Skyline 16x</option>
+			<option value="aquari">Aquari (Unfinished)</option>
+			<option value="venom">Venom 16x</option>
+			<option value="lunar">Lunar Client 16x</option>
+			<option value="tightfault">Tightfault revamped</option>
+			<option value="nicofruit">NicoFruit 16x</option>
+			<option value="1.17 PvP">1.17 PvP</option>
+			<option value="FruitFul32x">Fruitful 16x</option>
+			<option value="faithful">Faithful 32x</option>
+			<option value="Lemon">Lemon 16x</option>
+			<option value="defaultold">Default 1.5</option>
+			<option value="defaultnew">Default 1.17+</option>
+			<option value="bombies">Bombies 180k</option>
+			<option value="bones">Bare Bones</option>
+			<option value="modifiednew">Modified 1.17+</option>
+			<option value="miamiprivate">Miami Private</option>
+			<option value="nebula">Nebula</option>
+			<option value="ricefault">Ricefault</option>
+			<option value="walifault">Walifault</option>
+		</select>
+		<br /><br />
+		<input type="button" value="Launch" onclick="Start();" />
+    <p>#1 Eaglercraft client with ArmorHUD, Keystrokes, PotionHUD, a variety of texture packs to your liking, CPS counter, Reach display, custom keybinds, and a shit ton more coming soon.</p>
+    <h2>Made by hooman#1196/Nitwit. Packs created by Vortexian, Woody and BDA, some from precisionclient.</h2>
+	</div>
+	<script type="text/javascript">
+		if (document.location.href.startsWith("file:")) {
+			alert("You cannot 'open' this file in your browser, the code doesn't work. Upload this folder to your HTTP(s) server and access it via the internet to launch the stable-download game. This is not a bug, please read the documentation.");
+		} else {
+			var PackSelect = document.getElementById("Packs");
+			function Start() {
+				if (PackSelect.selectedIndex !== 0) {
+					var Selected = PackSelect.options[PackSelect.selectedIndex].value;
+					document.getElementById("Selection").style.display = "none";
+					localStorage.LastPack = Selected;
+					const relayId = Math.floor(Math.random() * 3);
+					window.eaglercraftOpts = {
+						container: "game_frame",
+						assetsURI: `packs/${Selected}.epk`,
+						serverWorkerURI: "worker_bootstrap.js",
+						worldsFolder: "MAIN",
+						servers: [ {serverName: "Blobcraft", serverAddress: "wss://blobcraft.minecraft.pe", hideAddress: false}, {serverName: "LegendSMP", serverAddress: "wss://legendsmp.minecraft.pe", hideAddress: false} ],
+						relays: [
+							{ addr: "wss://relay.deev.is/", name: "lax1dude relay #1", primary: relayId == 0 },
+							{ addr: "wss://relay.lax1dude.net/", name: "lax1dude relay #2", primary: relayId == 1 },
+							{ addr: "wss://relay.shhnowisnottheti.me/", name: "ayunami relay #1", primary: relayId == 2 }
+						],
+						mainMenu: {
+							splashes: ["Now with hotkeys!", "Created by Nitwit.", "More coming soon!"], eaglerLogo: false
+						}
+					};
+					(function () {
+						var q = window.location.search;
+						if (typeof q === 'string' && q.startsWith("?")) {
+							q = new URLSearchParams(q);
+							var s = q.get("server");
+							if (s) window.minecraftOpts.push(s);
+						}
+					})();
+					main();
+				} else
+					alert("You need to select a pack");
+			}
+		}
+		if (localStorage.LastPack)
+			for (Pack of PackSelect.children)
+				if (Pack.value === localStorage.LastPack) {
+					Pack.selected = "selected";
+					break;
+				}
+	</script>
+</body>
+
+</html>
