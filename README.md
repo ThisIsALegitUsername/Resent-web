@@ -21,6 +21,21 @@ Resent is the best eaglercraft pvp client. With a wide variety of both mods and 
 * NoRain
 * ToggleSprint
 
+## Stable vs Dev build
+
+The stable build will usually crash less, and all features should work as intended. The dev build will have beta features, but at times, it might crash.
+
+Stable build: https://resclient.vercel.app/
+
+Development build: https://resclientdev.vercel.app/
+
+### Dev build status
+
+**As of right now**, the development build works fine, and has the following new features:
+
+* Improved PotionHUD
+* Freelook
+
 ## Contributors
 
 ### Code:
