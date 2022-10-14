@@ -59,4 +59,4 @@ Join our discord [here](https://discord.gg/CwU8pnbRMz) and ping @hooman#1196 wit
 
 ## Contribution
 
-You're welcome to contribute! Just open a pr with **accurate** descriptions of what you changed, and I'll merge it!
+You're welcome to contribute! Just open a pull request with **accurate** descriptions of what you changed, and I'll merge it!
