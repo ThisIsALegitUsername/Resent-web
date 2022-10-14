@@ -35,6 +35,7 @@ Development build: https://resclientdev.vercel.app/
 **As of right now**, the development build works fine, and has the following new features:
 
 * Improved PotionHUD
+* Saving enabled mods, so that when you refresh, it'll load your enabled mods.
 
 ## Contributors
 
