@@ -7,7 +7,7 @@ Resent is the best eaglercraft pvp client. With a wide variety of both mods and 
 * Custom hotkeys
 * Keystrokes
 * CPS
-* Draggable mods
+* Movable mods
 * Freelook
 * ToggleSprint
 * Reach Display
@@ -35,7 +35,6 @@ Development build: https://resclientdev.vercel.app/
 **As of right now**, the development build works fine, and has the following new features:
 
 * Improved PotionHUD
-* Freelook
 
 ## Contributors
 
@@ -45,7 +44,7 @@ Nitwit (hooman#1196)
 
 ### Texture packs: 
 
-* BDAAAAAAAAAAAAAH (BDA_#9354) 
+* BDA_ (BDA_#9354) 
 * Vortexian (Vortexian#8232)
 * Woody (woody#0007)
 * PrecisionClient
