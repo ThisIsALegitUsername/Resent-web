@@ -54,7 +54,7 @@ Nitwit (hooman#1196)
 
 ### Pack selection screen:
 
-Legend (Legxnd#4194)
+Made by EtcherFX (etcher#1849), modified by Legend (Legxnd#4194)
 
 ## Support
 
