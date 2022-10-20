@@ -37,7 +37,6 @@ Development build: https://resclientdev.vercel.app/
 **As of right now**, the development build works fine, and has the following new features:
 
 * Improved PotionHUD
-* Saving enabled mods, so that when you refresh, it'll load your enabled mods.
 
 ## Contributors
 
@@ -50,7 +49,7 @@ Nitwit (hooman#1196)
 * BDA_ (BDA_#9354) 
 * Vortexian (Vortexian#8232)
 * Woody (woody#0007)
-* PrecisionClient (discord.gg/agFak6frsj or etcher#1849
+* PrecisionClient (discord.gg/agFak6frsj or etcher#1849)
 
 ### Pack selection screen:
 
