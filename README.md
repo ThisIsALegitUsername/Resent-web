@@ -36,7 +36,7 @@ Development build: https://resclientdev.vercel.app/
 
 **As of right now**, the development build works fine, and has the following new features:
 
-* Improved PotionHUD
+(Dev build was merged with stable, no new features yet.)
 
 ## Contributors
 
