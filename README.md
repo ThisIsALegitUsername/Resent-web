@@ -32,6 +32,8 @@ Stable build: https://resclient.vercel.app/
 
 Development build: https://resclientdev.vercel.app/
 
+FPS Build: https://resclientfps.vercel.app/ (boosts fps)
+
 ### Dev build status
 
 **As of right now**, the development build works fine, and has the following new features:
