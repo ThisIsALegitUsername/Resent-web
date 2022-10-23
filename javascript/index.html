@@ -15,6 +15,24 @@
 			font-family: "Product Sans";
 			src: url(ProductSans.ttf);
 		}
+		
+		#wrap {
+  min-height: 100%;
+}
+
+#main {
+  overflow: auto;
+  padding-bottom: 180px;
+  /* must be same height as the footer */
+}
+
+#footer {
+  position: relative;
+  margin-top: -180px;
+  text-align: center;
+  height: 180px;
+  clear: both;
+}
     
 	</style>
 </head>
@@ -159,7 +177,12 @@ background-size: cover;;  font-family:
 				}
 	</script>
 </body>
-<footer>
-	<p>use <a href="https://resclientfps.vercel.app/">https://resclientfps.vercel.app/</a> for decent fps with mods, <a href="https://broireallyneededtomakeatestclientforthis.vercel.app/">https://broireallyneededtomakeatestclientforthis.vercel.app/</a> for default eagler but with an fps boost.</p>
+<div id="wrap">
+  <div id="main"></div>
+</div>
+
+<div id="footer">
+	use <a href="https://resclientfps.vercel.app/">https://resclientfps.vercel.app/</a> for decent fps with mods, <a href="https://broireallyneededtomakeatestclientforthis.vercel.app/">https://broireallyneededtomakeatestclientforthis.vercel.app/</a> for default eagler but with an fps boost.
+</div>
 
 </html>
