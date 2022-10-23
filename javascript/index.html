@@ -6,7 +6,7 @@
 	<title>Resent Client</title>
 	<meta charset="application/javascript" />
 	<!--meta content="IMAGE" property="og:image"/>-->
-	<meta content="Eaglercraft pvp client. Currently developed by hooman#1196/Nitwit in-game. Packs are created by BDA, Woody, Nin, Vortexian, and a few are taken from precision."
+	<meta content="Eaglercraft pvp client. Currently developed by hooman#1196/Nitwit in-game. Packs are created by BDA, Woody, Nine4, Vortexian, and a few are taken from precision."
 		property="og:description" />
 	<script type="text/javascript" src="eagswebrtc.js"></script>
 	<script type="text/javascript" src="classes.js"></script>
@@ -15,13 +15,22 @@
 			font-family: "Product Sans";
 			src: url(ProductSans.ttf);
 		}
+		
+		footer {
+  text-align: center;
+  padding: 3px;
+}
     
 	</style>
 </head>
   
 
 <body style="margin: 0; width: 100vw; height: 100vh;
-background-image: url(bruh.jpg);  font-family:
+background-image: url(bruh.jpg);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;;  font-family:
 'Product Sans'" id="game_frame" >
 
  
@@ -32,7 +41,19 @@ background-image: url(bruh.jpg);  font-family:
     </div>
 		<h3 >Select a texture pack:</h3>
 		<select id="Packs">
-			<option>-- Choose one --</option>
+			<option>---- Choose one ----</option>
+			<option value="rosamie 32x"> rosamie 32x</option>
+			<option value="default-diamondEdit">Default netherite edit</option>
+			<option value="rhedd">Rhedd 16x</option>
+			<option value="bubblerose">Bubblerose 16x</option>
+			<option value="bonesnormalsword">Bare Bones Normal Swords</option>
+			<option value="defaultfps">Default FPS</option>
+			<option value="shyguy">Shy Guy 16x</option>
+			<option value="simplybombies">Simply 32x (Bombies 200k)</option>
+			<option value="RKYfault">RKYfault 16x</option>
+			<option value="bn550">Bedlessfault 16x</option>
+			<option value="asda_short">Asda 16x Short Swords</option>
+			<option value="cobalt">Cobalt 32x</option>
 			<option value="simplybombies">Simply (Bombies 200k)</option>
 			<option value="plat">Platinum 16x</option>
 			<option value="soup">Soups Kids 16x</option>x</option>
@@ -95,7 +116,7 @@ background-image: url(bruh.jpg);  font-family:
 		</select>
 		<br /><br />
 		<input type="button" value="Launch" onclick="Start();" />
-		<h2>Made by hooman#1196/Nitwit. Packs created by Vortexian, Woody, BDA, and EtcherFX. Used precision pack selection as base for pack selection screen.</h2>
+		<h2>Made by hooman#1196/Nitwit. Packs created by Vortexian, Woody, BDA, Nine4, and EtcherFX. Used precision pack selection as base for pack selection screen.</h2>
 	</div>
 	<script type="text/javascript">
 		if (document.location.href.startsWith("file:")) {
@@ -144,5 +165,7 @@ background-image: url(bruh.jpg);  font-family:
 				}
 	</script>
 </body>
+<footer>
+<p>use https://resclientfps.vercel.app/ for decent fps with mods, https://broireallyneededtomakeatestclientforthis.vercel.app/ for default eagler but with an fps boost.</p>
 
 </html>
