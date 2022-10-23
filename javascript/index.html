@@ -6,7 +6,7 @@
 	<title>Resent Client</title>
 	<meta charset="application/javascript" />
 	<!--meta content="IMAGE" property="og:image"/>-->
-	<meta content="An eaglercraft PvP client with a shit ton of features as well as an unnecessary amount of texture packs."
+	<meta content="Eaglercraft pvp client. Currently developed by hooman#1196/Nitwit in-game. Packs are created by BDA, Woody, Nin, Vortexian, and a few are taken from precision."
 		property="og:description" />
 	<script type="text/javascript" src="eagswebrtc.js"></script>
 	<script type="text/javascript" src="classes.js"></script>
@@ -21,7 +21,7 @@
   
 
 <body style="margin: 0; width: 100vw; height: 100vh;
-background-image: url(bg1.png);  font-family:
+background-image: url(bruh.jpg);  font-family:
 'Product Sans'" id="game_frame" >
 
  
@@ -33,17 +33,22 @@ background-image: url(bg1.png);  font-family:
 		<h3 >Select a texture pack:</h3>
 		<select id="Packs">
 			<option>-- Choose one --</option>
+			<option value="simplybombies">Simply (Bombies 200k)</option>
+			<option value="plat">Platinum 16x</option>
+			<option value="soup">Soups Kids 16x</option>x</option>
+			<option value="bonsai">Bonsai 16x</option>
+			<option value="camellia">Camellia 16x</option>
 			<option value="Latenci">Latenci 32x</option>
-			<option value="venomv2">Venom v2 16x</option>
+			<option value="venomv2">Venom 16x</option>
 			<option value="luv">Luvplaste 16x</option>
 			<option value="sabor">Sabor 32x</option>
 			<option value="asda">Asda 16x</option>
 			<option value="novis">Novis 16x</option>
 			<option value="frag">RasplinVanilla</option>
+			<option value="rasplin">RasplinRevamped</option>
 			<option value="azura">Azura 16x</option>
 			<option value="magma">Magma 16x</option>
-			<option value="soupskidz"soupskidz 32x</option>
-			<option value="leo">Leowookverify</option>
+			<option value="leo">Leowook</option>
 			<option value="woody2">Woodyfault 32x</option>
 			<option value="orchid">Orchid 16x</option>
 			<option value="lazy">Lazy 16x</option>
@@ -86,7 +91,6 @@ background-image: url(bg1.png);  font-family:
 			<option value="tightfault">Tightfault revamped</option>
 			<option value="tron 16x">Tron 16x</option>
 			<option value="refault fixed">Trycs 600k (ReFault)</option>
-			<option value="venom">Venom 16x</option>
 			<option value="walifault">Walifault 16x</option>
 		</select>
 		<br /><br />
@@ -109,7 +113,7 @@ background-image: url(bg1.png);  font-family:
 						assetsURI: `packs/${Selected}.epk`,
 						serverWorkerURI: "worker_bootstrap.js",
 						worldsFolder: "MAIN",
-						servers: [ {serverName: "Blobcraft", serverAddress: "wss://blobcraft.minecraft.pe", hideAddress: false}, {serverName: "LegendSMP", serverAddress: "wss://legendsmp.minecraft.pe", hideAddress: false} ],
+						servers: [ {serverName: "Blobcraft", serverAddress: "wss://blobcraft.minecraft.pe", hideAddress: false}, {serverName: "LegendSMP", serverAddress: "wss://legendsmp.minecraft.pe", hideAddress: false}, {serverName: "Hyper Network", serverAddress: "wss://hyper-network.me/play", hideAddress: false} ],
 						relays: [
 							{ addr: "wss://relay.deev.is/", name: "lax1dude relay #1", primary: relayId == 0 },
 							{ addr: "wss://relay.lax1dude.net/", name: "lax1dude relay #2", primary: relayId == 1 },
