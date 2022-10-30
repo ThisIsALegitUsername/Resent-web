@@ -46,6 +46,7 @@ FPS Build: https://resclientfps.vercel.app/ (boosts fps)
 
 * Increased fps
 * More accurate reach display
+* Scoreboard toggle & Scoreboard numbers toggle
 
 ## Contributors
 
