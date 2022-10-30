@@ -6,24 +6,28 @@ Resent is the best eaglercraft pvp client. With a wide variety of both mods and 
 
 * Mods that save their enabled status and position
 * Custom hotkeys
-* Keystrokes
-* CPS
 * Movable mods
+* ArmorHud
+* ComboCounter
+* Coordinate Display
+* ToggleSprint
+* Scoreboard numbers toggle
+* Scoreboard toggle
+* CPS Counter
+* FPS Display
 * Freelook
 * Health Display
 * Hitboxes
-* ToggleSprint
-* FPS Booster
-* Reach Display
-* ArmorHUD
+* Keystrokes
 * PotionHUD
+* Reach Display
 * AutoGG
-* FPS display
-* Coordinate display
 * AutoRespawn
+* ChunkBorders
 * NoDynamicFOV
 * Fullbright
-* NoHurtCam
+* NoHurtcam
+* NoParticles
 * NoRain
 
 ## Stable vs Dev build
