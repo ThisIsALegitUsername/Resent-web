@@ -8,6 +8,8 @@ Resent is the best eaglercraft pvp client. With a wide variety of both mods and 
 * Custom hotkeys
 * Movable mods
 * ArmorHud
+* AutoWalk
+* AutoJump
 * ComboCounter
 * Coordinate Display
 * ToggleSprint
@@ -47,6 +49,8 @@ FPS Build: https://resclientfps.vercel.app/ (boosts fps)
 * Increased fps
 * More accurate reach display
 * Scoreboard toggle & Scoreboard numbers toggle
+* AutoWalk
+* AutoJump
 
 ## Contributors
 
