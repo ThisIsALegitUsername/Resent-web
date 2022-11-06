@@ -52,6 +52,8 @@ FPS Build: https://resclientfps.vercel.app/ (boosts fps)
 * Scoreboard toggle & Scoreboard numbers toggle
 * AutoWalk
 * AutoJump
+* Better ClickGUI
+* Clear Chat
 
 ## Contributors
 
