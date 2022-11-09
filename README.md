@@ -61,8 +61,11 @@ Nitwit (hooman#1196)
 
 * BDA_ (BDA_#9354) 
 * Vortexian (Vortexian#8232)
-* Woody (woody#0007)
+* Woody (woody#2887)
 * Nin (nine4#3938)
+* baa (baa#9365)
+* luv (luv#4458)
+* neon (@N3_nl3z#7348)
 * PrecisionClient (discord.gg/agFak6frsj or etcher#1849)
 
 ### Pack selection screen:
@@ -76,3 +79,4 @@ Join our discord [here](https://discord.gg/CwU8pnbRMz) and ping @hooman#1196 wit
 ## Contribution
 
 You're welcome to contribute! Just open a pull request with **accurate** descriptions of what you changed, and I'll merge it!
+You can also give us your compiled texture packs in the discord! 
