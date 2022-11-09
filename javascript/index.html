@@ -8,6 +8,7 @@
 	<!--meta content="IMAGE" property="og:image"/>-->
 	<meta content="Eaglercraft pvp client. Currently developed by hooman#1196/Nitwit in-game. Packs are created by BDA, Woody, Nine4, Vortexian, Luv, and a few are taken from precision."
 		property="og:description" />
+	 <link rel="icon" type="image/x-icon" href="favicon.ico">
 	<script type="text/javascript" src="eagswebrtc.js"></script>
 	<script type="text/javascript" src="classes.js"></script>
 	<style>
@@ -37,7 +38,12 @@ background-size: cover;;  font-family:
 		<h3 >Select a texture pack:</h3>
 		<select id="Packs">
 			<option>---- Choose one ----</option>
-			<option value="SangRE">SangRE 16x</option>
+			<option value="sangRE">SangRE 16x</option>
+			<option value="rbwtory">rbw 16x</option>
+			<option value="1.8"> 1.8 PvP</option>
+			<option value="san">Sanman Murasaki 16x</option>
+			<option value="purpled">purpled 3k</option>
+			<option value="007">luvres 32x</option>
 			<option value="bombies80k">Bombies 80k</option>
 			<option value="wemmbu">Wubefault 16x</option>
 			<option value="twizzydefault">lil default edit</option>
@@ -112,14 +118,16 @@ background-size: cover;;  font-family:
 			<option value="skyline">Skyline 16x</option>
 			<option value="swiss">Swiss 16x</option>
 			<option value="tightfault">Tightfault revamped</option>
-			<option value="tron 16x">Tron 16x</option>
+			<option value="tron 16">Tron 16x</option>
 			<option value="refault fixed">Trycs 600k (ReFault)</option>
 			<option value="walifault">Walifault 16x</option>
 		        
 		</select>
 		<br /><br />
-		<input type="button" value="Launch" onclick="Start();" />
-		<h2>Made by hooman#1196/Nitwit. Packs created by Vortexian, Woody, BDA, Nine4, and EtcherFX. Used precision pack selection as base for pack selection screen.</h2>
+      <link rel="stylesheet" href="styles.css">
+        <div class="container">
+    <button onclick="Start();" class="btn">Launch</button> 
+		<p>Made by hooman#1196/Nitwit. Packs created by Vortexian, Woody, BDA, Nine4, and EtcherFX. Used precision pack selection as base for pack selection screen.</p>
 	</div>
 	<script type="text/javascript">
 		if (document.location.href.startsWith("file:")) {
@@ -137,14 +145,14 @@ background-size: cover;;  font-family:
 						assetsURI: `packs/${Selected}.epk`,
 						serverWorkerURI: "worker_bootstrap.js",
 						worldsFolder: "MAIN",
-						servers: [ {serverName: "Blobcraft", serverAddress: "wss://blobcraft.minecraft.pe", hideAddress: true}, {serverName: "LegendSMP", serverAddress: "wss://legendsmp.minecraft.pe", hideAddress: true} ],
+						servers: [ {serverName: "Blobcraft", serverAddress: "wss://blobcraft.minecraft.pe", hideAddress: true}, {serverName: "LegendSMP", serverAddress: "wss://legendsmp.minecraft.pe", hideAddress: true}],
 						relays: [
 							{ addr: "wss://relay.deev.is/", name: "lax1dude relay #1", primary: relayId == 0 },
 							{ addr: "wss://relay.lax1dude.net/", name: "lax1dude relay #2", primary: relayId == 1 },
 							{ addr: "wss://relay.shhnowisnottheti.me/", name: "ayunami relay #1", primary: relayId == 2 }
 						],
 						mainMenu: {
-							splashes: ["55+ Texture packs!"], eaglerLogo: false
+							splashes: ["Press Y to open GUI!"], eaglerLogo: false
 						}
 					};
 					(function () {
