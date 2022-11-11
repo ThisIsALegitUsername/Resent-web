@@ -33,6 +33,7 @@ Resent is the best eaglercraft pvp client. With a wide variety of both mods and 
 * NoRain
 * Self Nametags
 * Clear Chat
+* Advanced Item Tooltips
 * Settings
 * ClickGUI
 
