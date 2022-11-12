@@ -52,10 +52,7 @@ FPS Build: https://resclientfps.vercel.app/ (boosts fps)
 
 **As of right now**, the development build works fine, and has the following new features:
 
-* Customizable colors
-* Better ToggleSprint
-* Smooth Camera
-* Item Tooltips
+* Development build was just merged into stable, no new features yet!
 
 ## Contributors
 
