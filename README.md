@@ -5,6 +5,7 @@ Resent is the best eaglercraft pvp client. With a wide variety of both mods and 
 ## Features
 
 * Mods that save their enabled status and position
+* 60+ Texture packs
 * Custom hotkeys
 * Movable mods
 * ArmorHud
