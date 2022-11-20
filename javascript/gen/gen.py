@@ -94,14 +94,14 @@ venomv2 = epkToBase64("venomv2")
 walifault = epkToBase64("walifault")
 wemmbu = epkToBase64("wemmbu")
 woody = epkToBase64("woody")
-woody2 = epkToBase64("woody2)
+woody2 = epkToBase64("woody2")
 
 def templatePatch(key, value):
     global template
     template = template.replace(key, value)
 
                      
-//templatePatch("filename_epk", variableNameAbove
+//templatePatch("filename_epk", variableNameAbove)
                 
 templatePatch("defaultold_epk", default)
 templatePatch("007_epk", luvre)
