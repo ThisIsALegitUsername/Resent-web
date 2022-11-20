@@ -6,7 +6,7 @@ def epkToBase64(epkname):
     epk = open(f"../packs/{epkname}.epk","rb").read()
     return base64.b64encode(epk).decode("utf-8")
 
-007 = epkToBase64("007")
+luvre = epkToBase64("007")
 117pvp = epkToBase64("1.17PvP")
 18 = epkToBase64("1.8")
 clown = epkToBase64("ClownPierce32x.epk")
@@ -100,8 +100,14 @@ def templatePatch(key, value):
     global template
     template = template.replace(key, value)
 
-templatePatch("default_epk", default)
-
+                     
+//templatePatch("filename_epk", variableNameAbove
+                
+templatePatch("defaultold_epk", default)
+templatePatch("007_epk", luvre)
+templatePatch("1.17PvP", 117pvp)
+                     
+                     
 templatePatch("classes_js", open("../classes.js").read())
 templatePatch("eagswebrtc_js", open("../eagswebrtc.js").read())
 templatePatch("classes_server_js", open("../classes_server.js").read())
