@@ -14,18 +14,16 @@
     <script type="text/javascript" src="classes.js"></script>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  
+
   <body id="game_frame">
     <div class="stuff" id="changelog">
-      <h4>Changelog and Updates (Development build only)</h4>
+      <h4>Changelog and Updates</h4>
       <div>
-        <p>[+]Fixed combocounter</p>
-        <br />
-        <p>[+]Fixed hitboxes color bug</p>
-        <br />
-        <p>[+]Added color options to cps</p>
+        <p>[+]Fixed ComboCounter</p>
         <br />
         <p>[+]Fixed hotbar flickering</p>
+        <br />
+        <p>[+]Added autoGG Settings</p>
       </div>
     </div>
 
@@ -34,10 +32,11 @@
       <h4>Quick Guide</h4>
       <p>- Press "Y" in game to open the GUI</p>
       <br />
-      <p>- Set hotkeys and keybinds in controls</p>
+      <p>- Set hotkeys and other keybinds in controls</p>
       <br />
-      <p>- Press "Modify HUD" to change your mod layout</p>
+      <p>- Press "Modify HUD" to change your layout</p>
       <br />
+      <p>- Press "Y" again to close the GUI menu and close the menu.</p>
     </div>
 
     <div id="Selection">
@@ -164,6 +163,8 @@
           if (PackSelect.selectedIndex !== 0) {
             var Selected = PackSelect.options[PackSelect.selectedIndex].value;
             document.getElementById("Selection").style.display = "none";
+            document.getElementById("changelog").style.display = "none";
+            document.getElementById("quickstart").style.display = "none";
             localStorage.LastPack = Selected;
             const relayId = Math.floor(Math.random() * 3);
             window.eaglercraftOpts = {
