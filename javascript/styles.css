@@ -225,4 +225,16 @@ body {
     0 0 60px #fffa65;
 }
 
+#Selection:hover {
+  box-shadow: 1vw 1vw rgb(24, 8, 33);
+  transition-delay: 1s;
+  transition: box-shadow 0.5s ease-in-out;
+}
+
+.stuff:hover {
+  box-shadow: 1vw 1vw rgb(24, 8, 33);
+  transition-delay: 1s;
+  transition: box-shadow 0.5s ease-in-out;
+}
+
 
