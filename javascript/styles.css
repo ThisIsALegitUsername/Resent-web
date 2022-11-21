@@ -69,6 +69,7 @@ body {
 
 .stuff {
   padding-bottom: 1vw;
+  transition: 1s ease-in-out;
 }
 .container {
   display: flex;
@@ -100,6 +101,7 @@ body {
   text-align: center;
   overflow-y: scroll;
   font-size: calc(1.1vw);
+  transition: 1s ease-in-out;
 }
 
 .btn {
@@ -222,3 +224,5 @@ body {
   box-shadow: 0 0 5px #fffa65, 0 0 15px #fffa65, 0 0 30px #fffa65,
     0 0 60px #fffa65;
 }
+
+
