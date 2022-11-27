@@ -72,9 +72,10 @@ Nitwit (hooman#1196)
 * neon (@N3_nl3z#7348)
 * PrecisionClient (discord.gg/agFak6frsj or etcher#1849)
 
-### Pack selection screen:
+### Pack selection screen & ChangeLog:
 
 Made by EtcherFX (etcher#1849), modified by Legend (Legxnd#4194)
+ChangeLog made by Legend 
 
 ## Support
 
