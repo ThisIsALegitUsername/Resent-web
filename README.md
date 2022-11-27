@@ -5,7 +5,8 @@ Resent is the best eaglercraft pvp client. With a wide variety of both mods and 
 ## Features
 
 * Mods that save their enabled status and position
-* 60+ Texture packs
+* FPS boost
+* 90+ Texture packs
 * Custom hotkeys
 * Movable mods
 * ArmorHud
@@ -39,15 +40,15 @@ Resent is the best eaglercraft pvp client. With a wide variety of both mods and 
 * Settings
 * ClickGUI
 
-## Stable vs Dev build
+## Stable vs Dev vs FPS build
 
-The stable build will usually crash less, and all features should work as intended. The dev build will have beta features, but at times, it might crash.
+The stable build will usually crash less, and all features should work as intended. The dev build will have beta features but may crash at times. The FPS build is an alternative with less mods, however increased FPS
 
 Stable build: https://resclient.vercel.app/
 
 Development build: https://resclientdev.vercel.app/
 
-FPS Build: https://resclientfps.vercel.app/ (boosts fps)
+FPS Build: https://resclientfps.vercel.app/
 
 ### Dev build status
 
@@ -66,7 +67,7 @@ Nitwit (hooman#1196)
 * BDA_ (BDA_#9354) 
 * Vortexian (Vortexian#8232)
 * Woody (woody#2887)
-* Nin (nine4#3938)
+* Nine4 (nine4#3938)
 * baa (baa#9365)
 * luv (luv#4458)
 * neon (@N3_nl3z#7348)
