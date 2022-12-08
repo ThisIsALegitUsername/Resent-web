@@ -86,7 +86,22 @@ ChangeLog made by Legend
 
 Join our discord [here](https://discord.gg/CwU8pnbRMz) and ping @hooman#1196 with the issue. I will get back to you ASAP. If you don't have discord open a new issue in the issues tab and I will try to help you.
 
-## Contribution
+## FAQ
 
-You're welcome to contribute! Just open a pull request with **accurate** descriptions of what you changed, and I'll merge it!
-You can also give us your compiled texture packs in the discord! 
+### Offline download?
+
+Follow the youtube guide [here] (https://www.youtube.com/watch?v=WAZfXRdq-wQ). We are unable to provide an offline download of every single texture pack because it crashes most computers. Instead, you should follow the guide above in order to create an offline download of your desired texture packs.
+
+### Eaglercraft 1.8?
+
+Resent will be ported ASAP when the source code for eaglercraft 1.8 comes out.
+
+### Which texture pack is best?
+
+Good fps and good quality packs: Dino 16x, Venom 16x, Violet crystal pvp 32x
+
+Good fps pack: Bare bones 16x
+
+Decent fps and very good quality pack: Blue 128x
+
+(I haven't tested most of the texture packs, these are just the ones that I've used or heard others use, I'm probably missing 20 texture packs in every category above.)
