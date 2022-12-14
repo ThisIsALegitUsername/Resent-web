@@ -6,7 +6,7 @@ Resent is the best eaglercraft pvp client. With a wide variety of both mods and 
 
 * Mods that save their enabled status and position
 * FPS boost (fastmath)
-* Fake Hack overlay
+* PotCounter
 * Watermark
 * Animations
 * 100+ Texture packs
@@ -36,6 +36,7 @@ Resent is the best eaglercraft pvp client. With a wide variety of both mods and 
 * Fullbright
 * NoHurtcam
 * NoParticles
+* Fake Hack overlay
 * NoRain
 * Self Nametags
 * Clear Chat
@@ -50,15 +51,15 @@ The stable build will usually crash less, and all features should work as intend
 
 Stable build: https://resclient.vercel.app/
 
-Development build: https://resclientdev.vercel.app/
+Development build: [UNAVAILABLE]
 
-FPS Build: https://resclientfps.vercel.app/
+FPS Build: https://resclientfps.netlify.app/
 
 ### Dev build status
 
 **As of right now**, the development build works fine, and has the following new features:
 
-* Development build was just merged into stable, no new features yet!
+PotCounter
 
 ## Contributors
 
@@ -79,12 +80,11 @@ Nitwit (hooman#1196)
 
 ### Pack selection screen & ChangeLog:
 
-Made by EtcherFX (etcher#1849), modified by Legend (Legxnd#4194)
-ChangeLog made by Legend 
+Made by EtcherFX (etcher#1849), modified by Legend (Legxnd#4194), Woody (woody#2887)
 
 ## Support
 
-Join our discord [here](https://discord.gg/CwU8pnbRMz) and ping @hooman#1196 with the issue. I will get back to you ASAP. If you don't have discord open a new issue in the issues tab and I will try to help you.
+Join our discord [here](https://discord.gg/CwU8pnbRMz) and ping @hooman#1196. I will get back to you ASAP. If you don't have discord open a new issue in the issues tab and I will try to help you.
 
 ## FAQ
 
