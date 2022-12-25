@@ -61,6 +61,8 @@ FPS Build: https://resclientfps.netlify.app/
 
 PotCounter
 
+Bug fixes
+
 ## Contributors
 
 ### Code:
@@ -90,7 +92,7 @@ Join our discord [here](https://discord.gg/CwU8pnbRMz) and ping @hooman#1196. I 
 
 ### Offline download?
 
-Follow the youtube guide [here] (https://www.youtube.com/watch?v=WAZfXRdq-wQ). We are unable to provide an offline download of every single texture pack because it crashes most computers. Instead, you should follow the guide above in order to create an offline download of your desired texture packs.
+Follow the youtube guide [here](https://www.youtube.com/watch?v=WAZfXRdq-wQ). **PLEASE NOTE: IF THE OUTPUT SAYS "Killed" THAT MEANS YOU SELECTED TOO MANY TEXTURE PACKS. BECAUSE OF THIS, USE [GITPOD](https://gitpod.io) TO CREATE YOUR OFFLINE DOWNLOAD. ANOTHER ALTERNATIVE IF YOU HAVE A PC IS TO RUN IT LOCALLY.** We are unable to provide an offline download of every single texture pack because it crashes most computers. Instead, you should follow the guide above in order to create an offline download of your desired texture packs.
 
 ### Eaglercraft 1.8?
 
