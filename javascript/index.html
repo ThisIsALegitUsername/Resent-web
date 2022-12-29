@@ -16,20 +16,21 @@
     <div class="stuff" id="changelog">
       <h4>Changelog and Updates</h4>
       <div>
-        <p>[+]Adjustable keystrokes size</p>
+        <p>Too lazy to update changelog.</p>
         <br />
-        <p>[+]Added NoSwingDelay Mod</p>
-        <br />
-        <p>[+]Added Watermark Mod</p>
-        <br />
-        <p>[+]Added minimal view bobbing</p>
-        <br />
-        <p>[+]Add smooth scroll to gui</p>
-        <br />
-        <p>[+]Fake hacked client overlay</p>
-        <br />
-        <p>[+]Added animations mod</p>
       </div>
+    </div>
+
+    <div class ="stuff" id="notice">
+      <h3>NOTICE:
+      </br>
+      </br>
+        Resent 1.8 has been released! click on 
+      <a href = "/1.8/index.html">this link</a>
+      to beta test. If you find any bugs, please report that on the
+      <a href = "https://github.com/ThisIsALegitUsername/Resent-web/issues">issues feed</a>
+      or the
+      <a href = "https://discord.gg/CwU8pnbRMz">discord.</a> In your report, make sure to include what you were doing, and a picture of the crash error/bug.</h3>
     </div>
 
     <div class="stuff" id="quickstart">
@@ -173,8 +174,10 @@
           if (PackSelect.selectedIndex !== 0) {
             var Selected = PackSelect.options[PackSelect.selectedIndex].value;
             document.getElementById("Selection").style.display = "none";
-            document.getElementById("changelog").style.display = "none";
-            document.getElementById("quickstart").style.display = "none";
+document.getElementById("changelog").style.display = "none";
+document.getElementById("quickstart").style.display = "none";
+document.getElementById("notice").style.display = "none";
+            
             localStorage.LastPack = Selected;
             const relayId = Math.floor(Math.random() * 3);
             window.eaglercraftOpts = {
@@ -189,13 +192,43 @@
                   hideAddress: true,
                 },
                 {
-                  serverName: "LegendSMP",
-                  serverAddress: "wss://legxndsmp.minecraft.pe",
+                  serverName: "Asspixel",
+                  serverAddress: "wss://web.asspixel.net/CAP/",
                   hideAddress: true,
                 },
                 {
-                  serverName: "Hyper Network",
-                  serverAddress: "wss://hyper-network.me",
+                  serverName: "VanillaCraft",
+                  serverAddress: "wss://play.vanillacraftsmp.org",
+                  hideAddress: true,
+                },
+                {
+                  serverName: "CraftClue",
+                  serverAddress: "wss://play.craftclue.rocks",
+                  hideAddress: true,
+                },
+                {
+                  serverName: "Ayunboom",
+                  serverAddress: "wss://sus.shhnowisnottheti.me",
+                  hideAddress: true,
+                },
+                {
+                  serverName: "Sealcraft",
+                  serverAddress: "wss://sealcraft.ddns.net:442/servers",
+                  hideAddress: true,
+                },
+                {
+                  serverName: "MessCraft",
+                  serverAddress: "wss://mess.eu.org/s1/",
+                  hideAddress: true,
+                },
+                {
+                  serverName: "IMC.RE",
+                  serverAddress: "wss://play.imc.re:441/server",
+                  hideAddress: true,
+                },
+                {
+                  serverName: "HardCoreSMP",
+                  serverAddress: "wss://hardcoresmp.mrnewt.repl.co/serve",
                   hideAddress: true,
                 },
               ],
