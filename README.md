@@ -1,6 +1,8 @@
+# NOTICE: THE MAIN WEBSITE HAS BEEN TAKEN DOWN. USE [THIS LINK](https://reslauncher.vercel.app) FOR NOW. I DO NOT OWN THAT SITE.
+
 # Resent
 
-Resent is the best eaglercraft pvp client. With a wide variety of both mods and texture packs, this client will become your new main in no time. Resent has updates **extremely** often. Want proof? check out my contribution (hours of sleep lost) graph.
+Resent is the best eaglercraft pvp client. With a wide variety of both mods and texture packs, this client will become your new main in no time. Resent updates **extremely** often. Join the discord to see all the updates.
 
 ## Features
 
