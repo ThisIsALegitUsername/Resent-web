@@ -1,5 +1,7 @@
 # NOTICE: THE MAIN WEBSITE HAS BEEN TAKEN DOWN. USE [THIS LINK](https://reslauncher.vercel.app) FOR NOW. I DO NOT OWN THAT SITE.
 
+## Another note: I am no longer updating the files in this repository. I do not have the time nor patience to update this repo every single update. Newest versions are in the discord
+
 # Resent
 
 Resent is the best eaglercraft pvp client. With a wide variety of both mods and texture packs, this client will become your new main in no time. Resent updates **extremely** often. Join the discord to see all the updates.
@@ -46,24 +48,6 @@ Resent is the best eaglercraft pvp client. With a wide variety of both mods and 
 * Advanced Item Tooltips
 * Settings
 * ClickGUI
-
-## Stable vs Dev vs FPS build
-
-The stable build will usually crash less, and all features should work as intended. The dev build will have beta features but may crash at times. The FPS build is an alternative with less mods, however increased FPS
-
-Stable build: https://resclient.vercel.app/
-
-Development build: [UNAVAILABLE]
-
-FPS Build: https://resclientfps.netlify.app/
-
-### Dev build status
-
-**As of right now**, the development build works fine, and has the following new features:
-
-PotCounter
-
-Bug fixes
 
 ## Contributors
 
