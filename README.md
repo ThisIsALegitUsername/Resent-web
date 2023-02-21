@@ -1,12 +1,21 @@
+# NOTICE: THE MAIN WEBSITE HAS BEEN TAKEN DOWN. USE [THIS LINK](https://reslauncher.vercel.app) FOR NOW. I DO NOT OWN THAT SITE.
+
+## Another note: I am no longer updating the files in this repository. I do not have the time nor patience to update this repo every single update. Newest versions are in the discord
+
 # Resent
 
-Resent is the best eaglercraft pvp client. With a wide variety of both mods and texture packs, this client will become your new main in no time. Resent has updates **extremely** often. Want proof? check out my contribution (hours of sleep lost) graph.
+Resent is the best eaglercraft pvp client. With a wide variety of both mods and texture packs, this client will become your new main in no time. Resent updates **extremely** often. Join the discord to see all the updates.
 
 ## Features
 
 * Mods that save their enabled status and position
-* 60+ Texture packs
+* FPS boost (fastmath)
+* PotCounter
+* Watermark
+* Animations
+* 100+ Texture packs
 * Custom hotkeys
+* Fps Boost Mod
 * Movable mods
 * ArmorHud
 * AutoWalk
@@ -31,6 +40,7 @@ Resent is the best eaglercraft pvp client. With a wide variety of both mods and 
 * Fullbright
 * NoHurtcam
 * NoParticles
+* Fake Hack overlay
 * NoRain
 * Self Nametags
 * Clear Chat
@@ -38,22 +48,6 @@ Resent is the best eaglercraft pvp client. With a wide variety of both mods and 
 * Advanced Item Tooltips
 * Settings
 * ClickGUI
-
-## Stable vs Dev build
-
-The stable build will usually crash less, and all features should work as intended. The dev build will have beta features, but at times, it might crash.
-
-Stable build: https://resclient.vercel.app/
-
-Development build: https://resclientdev.vercel.app/
-
-FPS Build: https://resclientfps.vercel.app/ (boosts fps)
-
-### Dev build status
-
-**As of right now**, the development build works fine, and has the following new features:
-
-* Development build was just merged into stable, no new features yet!
 
 ## Contributors
 
@@ -66,21 +60,36 @@ Nitwit (hooman#1196)
 * BDA_ (BDA_#9354) 
 * Vortexian (Vortexian#8232)
 * Woody (woody#2887)
-* Nin (nine4#3938)
+* Nine4 (nine4#3938)
 * baa (baa#9365)
 * luv (luv#4458)
 * neon (@N3_nl3z#7348)
 * PrecisionClient (discord.gg/agFak6frsj or etcher#1849)
 
-### Pack selection screen:
+### Pack selection screen & ChangeLog:
 
-Made by EtcherFX (etcher#1849), modified by Legend (Legxnd#4194)
+Made by EtcherFX (etcher#1849), modified by Legend (Legxnd#4194), Woody (woody#2887)
 
 ## Support
 
-Join our discord [here](https://discord.gg/CwU8pnbRMz) and ping @hooman#1196 with the issue. I will get back to you ASAP. If you don't have discord open a new issue in the issues tab and I will try to help you.
+Join our discord [here](https://discord.gg/CwU8pnbRMz) and ping @hooman#1196. I will get back to you ASAP. If you don't have discord open a new issue in the issues tab and I will try to help you.
 
-## Contribution
+## FAQ
 
-You're welcome to contribute! Just open a pull request with **accurate** descriptions of what you changed, and I'll merge it!
-You can also give us your compiled texture packs in the discord! 
+### Offline download?
+
+Follow the youtube guide [here](https://www.youtube.com/watch?v=WAZfXRdq-wQ). **PLEASE NOTE: IF THE OUTPUT SAYS "Killed" THAT MEANS YOU SELECTED TOO MANY TEXTURE PACKS. BECAUSE OF THIS, USE [GITPOD](https://gitpod.io) TO CREATE YOUR OFFLINE DOWNLOAD. ANOTHER ALTERNATIVE IF YOU HAVE A PC IS TO RUN IT LOCALLY.** We are unable to provide an offline download of every single texture pack because it crashes most computers. Instead, you should follow the guide above in order to create an offline download of your desired texture packs.
+
+### Eaglercraft 1.8?
+
+Resent will be ported ASAP when the source code for eaglercraft 1.8 comes out.
+
+### Which texture pack is best?
+
+Good fps and good quality packs: Dino 16x, Venom 16x, Violet crystal pvp 32x
+
+Good fps pack: Bare bones 16x
+
+Decent fps and very good quality pack: Blue 128x
+
+(I haven't tested most of the texture packs, these are just the ones that I've used or heard others use, I'm probably missing 20 texture packs in every category above.)

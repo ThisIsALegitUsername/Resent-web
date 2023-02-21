@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script async src="https://arc.io/widget.min.js#AcyRg5M7"></script>
+    <title>Resent Client</title>
+    <meta charset="application/javascript" />
+    <!--meta content="IMAGE" property="og:image"/>-->
+    <meta content="Eaglercraft pvp client. Currently developed by hooman#1196/Nitwit in-game. Over 100 texture packs for 1.5 and 40+ mods. 1.8 currently in development." property="og:description" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <script type="text/javascript" src="classes.js"></script>
+		<script type="text/javascript" src="fix-webm-duration.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body id="game_frame">
+    <div class="stuff" id="changelog">
+      <h3>Changelog and Updates</h3>
+      <div>
+        <br/>
+        <br />
+        <p>too lazy to update changelog cope</p>
+        <br />
+      </div>
+    </div>
+
+    <div class="stuff" id="quickstart">
+      <h3>Quick Guide</h3>
+      <br/>
+      <br/>
+      <p>- Press "Right shift" in game to open the GUI</p>
+      <br />
+      <p>- Set hotkeys and other keybinds in controls</p>
+      <br />
+      <p>- Press "Modify HUD" to change the layout</p>
+    </div>
+
+    <div id="Selection">
+      <div background-color: light-grey;>
+        <h1>Resent Client 1.8:</h1>
+        <h3>Public beta</h3>
+        <br/>
+      <div class="container">
+        <button onclick="Start();" class="btn"><a href="#">Launch</a></button>
+      </div>
+    </div>
+    <script type="text/javascript">
+      if (document.location.href.startsWith("file:")) {
+        alert(
+          "You cannot 'open' this file in your browser, the code doesn't work. Upload this folder to your HTTP(s) server and access it via the internet to launch the stable-download game. This is not a bug, please read the documentation."
+        );
+      } else {
+        function Start() {
+            document.getElementById("Selection").style.display = "none";
+            document.getElementById("changelog").style.display = "none";
+            document.getElementById("quickstart").style.display = "none";
+            window.eaglercraftXOpts = {
+						container: "game_frame",
+						assetsURI: "assets.epk",
+						localesURI: "lang/",
+servers: [
+                            { addr: "wss://hyper-network.me/", name: "Hyper Network" },             {addr: "wss://blobcraft.minecraft.pe", name: "BlobCraft"}
+                        ]
+					};
+            main();
+        }
+      }
+    </script>
+  </body>
+</html>
