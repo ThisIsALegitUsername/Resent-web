@@ -6,9 +6,9 @@
     font-weight: 390;
     letter-spacing: 1px;
     overflow: hidden;
-}
-
-body {
+  }
+  
+  body {
     position: relative;
     display: flex;
     justify-content: center;
@@ -23,9 +23,9 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
-
-#changelog {
+  }
+  
+  #changelog {
     top: 35%;
     right: 15%;
     text-align: center;
@@ -43,9 +43,9 @@ body {
     text-align: center;
     font-size: calc(1.2vw);
     overflow-y: scroll;
-}
-
-#quickstart {
+  }
+  
+  #quickstart {
     position: relative;
     text-align: center;
     bottom: 2px;
@@ -67,28 +67,28 @@ body {
     max-width: 30vw;
     font-size: calc(1.2vw);
     text-align: center;
-}
-
-.stuff {
+  }
+  
+  .stuff {
     padding-bottom: 1vw;
     transition: 1s ease-in-out;
-}
-
-.container {
+  }
+  
+  .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-}
-
-#Packs {
+  }
+  
+  #Packs {
     height: 3vh;
     width: 9vw;
     font-size: 0.8vw;
     text-align: center;
-}
-
-#Selection {
+  }
+  
+  #Selection {
     vertical-align: center;
     display: inline-block;
     position: absolute;
@@ -105,9 +105,9 @@ body {
     overflow-y: scroll;
     font-size: calc(1.1vw);
     transition: 1s ease-in-out;
-}
-
-.btn {
+  }
+  
+  .btn {
     position: relative;
     display: inline-block;
     border: none;
@@ -115,9 +115,9 @@ body {
     background: none;
     padding: 25px 75px;
     margin: 30px;
-}
-
-.btn a {
+  }
+  
+  .btn a {
     position: absolute;
     left: 0;
     top: 0;
@@ -137,13 +137,13 @@ body {
     text-decoration: none;
     backdrop-filter: blur(15px);
     transition: all 0.3s ease-in-out;
-}
-
-.btn:hover a {
+  }
+  
+  .btn:hover a {
     letter-spacing: 3px;
-}
-
-.btn a::before {
+  }
+  
+  .btn a::before {
     content: "";
     position: absolute;
     left: 0;
@@ -153,14 +153,14 @@ body {
     background: linear-gradient(to left, rgba(255, 255, 255, 0.15), transparent);
     transform: skewX(40deg) translateX(0);
     transition: all 0.5s ease-out;
-}
-
-.btn:hover a::before {
+  }
+  
+  .btn:hover a::before {
     transform: skewX(40deg) translateX(200%);
-}
-
-.btn::before,
-.btn::after {
+  }
+  
+  .btn::before,
+  .btn::after {
     content: "";
     position: absolute;
     left: 50%;
@@ -171,68 +171,70 @@ body {
     background: #9e4444;
     transition: all 0.4s ease-in-out;
     transition-delay: 0s;
-}
-
-.btn::before {
+  }
+  
+  .btn::before {
     bottom: -5px;
-}
-
-.btn::after {
+  }
+  
+  .btn::after {
     top: -5px;
-}
-
-.btn:hover::before,
-.btn:hover::after {
+  }
+  
+  .btn:hover::before,
+  .btn:hover::after {
     height: 50%;
     width: 80%;
     border-radius: 30px;
     transition-delay: 0.3s;
-}
-
-.btn:hover::before {
+  }
+  
+  .btn:hover::before {
     bottom: 0;
-}
-
-.btn:hover::after {
+  }
+  
+  .btn:hover::after {
     top: 0;
-}
-
-.btn:nth-child(1)::before,
-.btn:nth-child(1)::after {
+  }
+  
+  .btn:nth-child(1)::before,
+  .btn:nth-child(1)::after {
     background: #2bd2ff;
     box-shadow: 0 0 5px #2bd2ff, 0 0 15px #2bd2ff, 0 0 30px #2bd2ff,
-        0 0 60px #2bd2ff;
-}
-
-.btn:nth-child(2)::before,
-.btn:nth-child(2)::after {
+      0 0 60px #2bd2ff;
+  }
+  
+  .btn:nth-child(2)::before,
+  .btn:nth-child(2)::after {
     background: #2bd2ff;
     box-shadow: 0 0 5px #2bd2ff, 0 0 15px #2bd2ff, 0 0 30px #2bd2ff,
-        0 0 60px #2bd2ff;
-}
-
-.btn:nth-child(3)::before,
-.btn:nth-child(3)::after {
+      0 0 60px #2bd2ff;
+  }
+  
+  .btn:nth-child(3)::before,
+  .btn:nth-child(3)::after {
     background: #1eff45;
     box-shadow: 0 0 5px #1eff45, 0 0 15px #1eff45, 0 0 30px #1eff45,
-        0 0 60px #1eff45;
-}
-
-.btn:nth-child(4)::before,
-.btn:nth-child(4)::after {
+      0 0 60px #1eff45;
+  }
+  
+  .btn:nth-child(4)::before,
+  .btn:nth-child(4)::after {
     background: #fffa65;
     box-shadow: 0 0 5px #fffa65, 0 0 15px #fffa65, 0 0 30px #fffa65,
-        0 0 60px #fffa65;
-}
-
-#Selection:hover {
+      0 0 60px #fffa65;
+  }
+  
+  #Selection:hover {
     box-shadow: 1vw 1vw rgb(24, 8, 33);
     transition-delay: 1s;
     transition: box-shadow 0.5s ease-in-out;
-}
-
-.stuff:hover {
+  }
+  
+  .stuff:hover {
     box-shadow: 1vw 1vw rgb(24, 8, 33);
     transition-delay: 1s;
     transition: box-shadow 0.5s ease-in-out;
-}
+  }
+  
+  
