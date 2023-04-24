@@ -25,3 +25,4 @@ Nitwit (hooman#1196)
 ## Support
 
 Join our discord [here](https://discord.gg/CwU8pnbRMz) and ping @hooman#1196. I will get back to you ASAP. If you don't have discord open a new issue in the issues tab and I will try to help you.
+
