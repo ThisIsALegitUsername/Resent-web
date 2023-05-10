@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="EaglercraftX 1.8 test directory HTML page" />
+		<meta name="keywords" content="eaglercraft, eaglercraftx, minecraft, 1.8, 1.8.8" />
+		<title>EaglercraftX 1.8</title>
+		<meta property="og:locale" content="en-US" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="EaglercraftX 1.8" />
+		<meta property="og:description" content="test directory HTML page" />
+		<link type="image/png" rel="shortcut icon" href="favicon.png" />
+		<script type="text/javascript" src="classes.js"></script>
+		<script type="text/javascript" src="fix-webm-duration.js"></script>
+		<style>
+			html {
+				font-family: sans-serif;
+				text-align: center;
+			}
+
+			#progresstext {
+				font-weight: bold;
+				top: 30vh;
+				position: relative;
+				font-size: 1.75vw;
+			}
+
+			#clienttitle {
+				position: relative;
+				top: 20vh;
+				font-size: 5.5vw;
+			}
+
+			#clientversion {
+				position: relative;
+				top: 15vh;
+				font-size: 2.5vw;
+				color: gray;
+			}
+
+			#progress {
+				width: 10%;
+				height: 7.5vh;
+				display: block;
+				border-radius: 10vw;
+				background-color: black;
+				transition: all 0.5s;
+				margin-top: -2.8vh;
+				margin-left: -1.3vw;
+			}
+
+			#meter {
+			width: 80vw;
+				margin:auto;
+				top: 28vh;
+				height: 2vh;  
+				position: relative;
+				border: 0.65vw solid black;
+				border-radius: 20vw;
+				padding: 1.15vw;
+			}
+
+			#dividk {
+				background-color: white;
+				position: absolute;
+				top: 0px;
+				left: 0px;
+				width: 100vw;
+				height: 100vh;
+			}
+		</style>
+		<script type="text/javascript">
+
+			"use strict";
+			window.addEventListener("load", () => {
+				if(document.location.href.startsWith("file:")) {
+					alert("HTTP please, do not open this file locally, run a local HTTP server and load it via HTTP");
+				}else {
+					window.eaglercraftXOpts = {
+						container: "game_frame",
+						assetsURI: "assets.epk",
+						localesURI: "lang/",
+						servers: [
+							{ addr: "ws://localhost:8081/", name: "Local test server" }
+						]
+					};
+					
+					var q = window.location.search;
+					if(typeof q === "string" && q.startsWith("?")) {
+						q = new URLSearchParams(q);
+						var s = q.get("server");
+						if(s) window.eaglercraftXOpts.joinServer = s;
+					}
+					
+					main();
+				}
+			});
+		</script>
+	</head>
+		<body style="margin:0px;width:100vw;height:100vh;overflow:hidden;" id="game_frame">
+			<div id = "dividk">
+			<h1 id="clienttitle">Resent Client</h1>
+			<h2 id="clientversion">3.6</h2>
+			<p id="progresstext">0%</p>
+			<div id="meter">
+			<span style="width: 0%" id="progress"></span>
+			</div>
+			<script type="text/javascript">
+				function updateTextProgress(event, epkSize){
+					document.getElementById("progresstext").innerText = Math.round(event.loaded/epkSize*10000)/100 + "%" + "(" + Math.round(event.loaded/1024/1024) + "MB" + "/" +  Math.round(epkSize/1024/1024) + "MB )";
+				}
+				
+				function setVersion(version){
+					document.getElementById("clientversion").innerText = version;
+				}
+				
+				function setBarProg(event, epkSize){
+					let progress = Math.round(event.loaded/1024/1024);
+					let size = Math.round(epkSize/1024/1024);
+					document.getElementById("progress").style.width = (Math.round(progress/size*100)+4)+"%";
+					updateTextProgress(event, epkSize);
+				}
+
+				function die(){
+					document.getElementById( "dividk" ).style.display = "none";
+				}
+
+			</script>
+			</div>
+		</body>
+</html>

@@ -5,6 +5,16 @@
   font-family: "Roboto", sans-serif;
 }
 
+a:link {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  color: darkred;
+  text-decoration: none;
+}
+
 body {
   position: relative;
   display: flex;
@@ -25,7 +35,6 @@ body {
 #changelog {
   top: 27%;
   right: 15%;
-  text-align: center;
   position: absolute;
   background-color: rgb(49, 51, 54);
   height: 40vh;
@@ -43,14 +52,12 @@ body {
 }
 
 #quickstart {
-  position: relative;
-  text-align: center;
+
   bottom: 2px;
   overflow-y: scroll;
   top: 27%;
   left: 15%;
   right: 10vw;
-  text-align: center;
   position: absolute;
   background-color: rgb(49, 51, 54);
   height: 40vh;
@@ -89,7 +96,7 @@ body {
   vertical-align: center;
   display: inline-block;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: rgb(49, 51, 54);
@@ -97,7 +104,26 @@ body {
   border-radius: 1vw;
   color: white;
   width: 20vw;
-  height: 70vh;
+  height: 40vh;
+  text-align: center;
+  overflow-y: scroll;
+  font-size: calc(1.1vw);
+  transition: 1s ease-in-out;
+}
+
+#notice {
+  vertical-align: center;
+  display: inline-block;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(49, 51, 54);
+  padding: 1vw;
+  border-radius: 1vw;
+  color: white;
+  width: 20vw;
+  height: 20vh;
   text-align: center;
   overflow-y: scroll;
   font-size: calc(1.1vw);
@@ -236,5 +262,4 @@ body {
   transition-delay: 1s;
   transition: box-shadow 0.5s ease-in-out;
 }
-
 
